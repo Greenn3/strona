@@ -16,18 +16,21 @@ body {
 
 /* Nagłówek */
 header {
-    background: linear-gradient(to right, #007bff, #00aaff);
+    background: linear-gradient(to right, #3a6e47, #2cb237);
     color: white;
-    padding: 30px 20px;
-    border-radius: 10px;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .tagline {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     margin-top: 5px;
     opacity: 0.8;
 }
@@ -37,22 +40,42 @@ main {
     margin-top: 30px;
 }
 
-.description {
+
+.section{
     background: white;
     padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    border-radius: 10px;
+    width: 40rem;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30rem;
 }
 
-.description h2 {
-    color: #007bff;
+.section h2 {
+    color: #14743d;
     margin-bottom: 15px;
 }
 
-.description p {
-    font-size: 1.1rem;
+.section p {
+    font-size: 0.8rem;
     line-height: 1.6;
     margin-bottom: 10px;
+    text-align: justify;
 }
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .header {
+        display: flex;
+        align-items: center;  /* Aligns logo and text vertically */
+        justify-content: center; /* Centers the entire div */
+        gap: 10px; /* Space between logo and text */
+    
+}
+.logo{
+    width: 3rem;
+    height: auto;
+}
+
